@@ -1,0 +1,33 @@
+{
+  "name": "idm_engine_patch",
+  "description": "Installs IDM Engine Patch",
+  "long_description": "Installs IDM Engine Patch",
+  "maintainer": "Chendil Kumar Manoharan",
+  "maintainer_email": "kchendil@netiq.com",
+  "license": "Apache 2.0",
+  "platforms": {
+    "suse": ">= 0.0.0",
+	"centos": ">=0.0.0",
+	"fedora": ">=0.0.0",
+	"ubuntu": ">=0.0.0",
+	"debian": ">=0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "idm_engine_patch::default": "Installs IDM Engine Patch"
+  },
+  "version": "0.1.11"
+}
